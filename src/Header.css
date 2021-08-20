@@ -1,0 +1,32 @@
+.header__navbar{
+    display: flex !important;
+    justify-content: space-between !important;
+    position: sticky;
+    top: 0;
+    
+}
+
+.header__brand{
+    font-family: sans-serif !important;
+    font-size: 30px !important;
+    font-weight: bolder;
+}
+.span{
+    color: #328E71;
+}
+
+
+.left{
+    display: flex;
+}
+
+.header__button{
+   margin-left: 50px !important;
+   padding: 1px !important;
+   background-color: #328E71 !important;
+}
+
+option{
+    border: none;
+    width: 30px;
+}

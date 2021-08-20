@@ -1,0 +1,39 @@
+.category{
+    margin-top: 50px;
+    display: flex;
+    background-color: #F7F7F7;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.category__left{
+    flex: 0.2;
+    position: sticky;
+    top: 0;
+}
+
+.category__right{
+    flex: 0.8;
+}
+
+.categories{
+  background-color: white;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.categories:hover{
+    color: #328E71;
+}
+
+.category__right::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .category__right {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
